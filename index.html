@@ -7,23 +7,76 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="nav">
+            <p>J A A N W A R</p>
+    </nav>
 
     <div class="wrapper">
-        <button id="main" onclick="beast()">beast</button>
-        <button id="main" onclick="bird()">bird</button>
+
+        <div class="btns">
+            <button id="main" onclick="monke()">
+            <img src="assets/monke.png" class="loin">
+            </button>
+            <button id="main" onclick="bird()">
+            <img src="assets/bird.png" class="loin">
+            </button>
+        </div>
+        <div class="btns">
+            <button id="main" onclick="insect()">
+            <img src="assets/insect.png" class="loin">
+            </button>
+            <button class="main" onclick="lion()">
+                <img class="loin" src="assets/lion.png">
+            </button>
+        </div>
+
+        <div class="btns">
+            <button id="main" onclick="cat()">
+            <img src="assets/cat.png" class="loin">
+            </button>
+            <button class="main" onclick="dog()">
+                <img class="loin" src="assets/dog.png">
+            </button>
+        </div>
+        
+
+        <div class="btns">
+            <button id="main" onclick="horse()">
+            <img src="assets/horse.png" class="loin">
+            </button>
+            <button class="main" onclick="cow()">
+                <img class="loin" src="assets/cow.png">
+            </button>
+        </div>
     </div>
 
 
 
-
-
-
-    <audio id="beast">
-        <source src="beast.wav" type="audio/wav">
+    <audio id="monke">
+        <source src="audio/monke.wav" type="audio/wav">
     </audio>
     <audio id="bird">
-        <source src="bird.wav" type="audio/wav">
+        <source src="audio/bird.wav" type="audio/wav">
     </audio>
+    <audio id="insect">
+        <source src="audio/insect.wav" type="audio/wav">
+    </audio>
+    <audio id="lion">
+        <source src="audio/lion.wav" type="audio/wav">
+    </audio>
+    <audio id="cat">
+        <source src="audio/cat.wav" type="audio/wav">
+    </audio>
+    <audio id="dog">
+        <source src="audio/dog.wav" type="audio/wav">
+    </audio>
+    <audio id="horse">
+        <source src="audio/horse.wav" type="audio/wav">
+    </audio>
+    <audio id="cow">
+        <source src="audio/cow.wav" type="audio/wav">
+    </audio>
+
 </body>
 <script src="logic.js"></script>
 </html>
